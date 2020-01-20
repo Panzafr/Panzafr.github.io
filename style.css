@@ -1,0 +1,39 @@
+body {
+	background-image:url("Background.jpg");
+}
+
+.title {
+	color:white;
+	font-family: 'Play', sans-serif;
+	background-color:rgba(0, 0, 0, 0.6);
+	width:700px;
+	border-radius:25px;
+
+}
+
+.btn {
+	height: 50px;
+	width: 150px;
+	background-color: #0000AF;
+	border-color: #000090;
+	border-radius: 50px;
+}
+
+.btn:hover{
+	background-color:#00006D;
+	border-color: #000054;
+	transform: scale(1.05);
+	transition: 0.4s;
+}
+
+hr {
+  	max-width: 65px;
+  	border-width: 3px;
+  	border-color: #F05F44;
+  	margin-top:100px;
+}
+
+header.startup {
+	margin-top: 200px;
+	margin-bottom: 30px; 
+}
